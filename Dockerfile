@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.4
+ENV VERSION=0.0.6
 
 RUN gem install beanstalkd-stats --version ${VERSION} --no-format-exec
 
